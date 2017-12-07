@@ -1,0 +1,33 @@
+{
+  "name": "Tabs Export",
+  "version": "1.0.1",
+  "description": "Exports open tabs URLs to a text file",
+
+  "manifest_version": 2,
+  "applications": {
+    "gecko": {
+      "id": "tabs-export@mortalis.org",
+      "strict_min_version": "54.0"
+    }
+  },
+  
+  "browser_action": {
+    "default_title": "Tabs Export"
+  },
+  
+  "background": {
+    "scripts": ["utils.js", "main-export.js"]
+  },
+  
+  "options_ui": {
+    "page": "options/options.html",
+    "browser_style": true
+  },
+
+  "permissions": [
+    "tabs",
+    "downloads",
+    "notifications",
+    "storage"
+  ]
+}

@@ -1,0 +1,39 @@
+
+* {
+  font-size: 1em;
+}
+
+#title {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+#options-form {
+  margin-top: 20px;
+}
+
+.option {
+  margin-bottom: 30px;
+}
+
+.option-label {
+  margin-right: 10px;
+}
+
+.option-input {
+  padding: 8px;
+  border-radius: 0;
+}
+
+#btnSave {
+  width: 100px;
+  height: 40px;
+  background: #ddd;
+  border-radius: 0;
+}
+
+#message {
+  color: #333;
+  display: inline-block;
+  margin-left: 15px;
+}
