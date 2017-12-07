@@ -1,6 +1,6 @@
 {
   "name": "Tabs Export",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Exports open tabs URLs to a text file",
 
   "manifest_version": 2,

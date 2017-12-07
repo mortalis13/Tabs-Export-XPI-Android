@@ -1,4 +1,11 @@
 
+var VALID_PROTOCOLS = [
+  'http://',
+  'https://',
+  'file://',
+  'about:'
+];
+
 // --------- API Utils ---------
 
 function getActiveTab() {
@@ -30,7 +37,7 @@ function notifyMsg(id, title, msg) {
 
 function validUrl(url) {
   for (var prot of VALID_PROTOCOLS) {
-    if (url.startsWith(prot + ':')) return true;
+    if (url.startsWith(prot)) return true;
   }
   return false;
 }
